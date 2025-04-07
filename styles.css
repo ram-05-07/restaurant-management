@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+   
+}
+header {
+    background-color: #817b78;
+    color: white;
+    padding: 20px;
+}
+.responsive-btn {
+    display: block;
+    width: 100%;
+    max-width: 250px; /* Adjust based on design */
+    padding: 12px 20px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.responsive-btn:hover {
+    background-color: #e65c00;
+}
+
+@media (min-width: 768px) {
+    .responsive-btn {
+        width: auto;
+    }
+}
+
+nav a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+.navbar-nav .nav-link {
+    color: #c72828; /* Default text color */
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #95968f; /* Change text color on hover */
+    font-weight: bold; /* Make text bold on hover */
+    background-color: rgb(93, 133, 154);
+}
+
+.hero {
+    background: url('back.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 50px;
+}
+.btn {
+    background-color: white;
+    color: #ff6600;
+    padding: 10px 20px;
+    text-decoration: none;
+}
